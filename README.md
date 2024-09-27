@@ -1,6 +1,6 @@
-# Localization Automation Scripts
+# Locolize
 
-This repository contains a set of shell scripts designed to automate the localization process for iOS and Android projects. These scripts facilitate the downloading, translation, and management of localized strings using the Loco API and OpenAI's GPT model for translations.
+A set of shell scripts designed to automate the localization process for iOS and Android projects. These scripts facilitate the downloading, translation, and management of localized strings using the Loco API and OpenAI's GPT model for translations.
 
 ## Features
 
