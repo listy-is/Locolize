@@ -63,6 +63,7 @@ brew install jq
 The main script that orchestrates the entire process is `localize.sh`. To run it:
 
 ```
+cd Locolize
 ./localize.sh [ios|android]
 ```
 
@@ -76,6 +77,13 @@ This script will:
 6. Clean up temporary files
 
 ## Individual Scripts
+
+To run any of the scripts you need to first enter in the Locolize directory:
+
+```
+cd Locolize
+./[pull|translate|push|generate|clean].sh
+```
 
 - `pull.sh`: Downloads the latest locales from Loco in CSV format
 - `translate.sh`: Translates missing strings using OpenAI's GPT model
